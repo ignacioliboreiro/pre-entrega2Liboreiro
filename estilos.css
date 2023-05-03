@@ -277,3 +277,14 @@ footer a{
         height: 600px;
     }
 }
+
+
+/* de aca para abajo contacto */
+
+.contacto{
+    background-image: url(./img/fondo\ de\ contacto.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
