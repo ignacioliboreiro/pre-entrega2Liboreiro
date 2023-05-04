@@ -385,7 +385,7 @@ input{
     form{
         width: 350px;
         height: 500px;
-        margin-bottom: 150px;
+        margin-bottom: 0px;
     }
     
     .enviar-input{
@@ -402,7 +402,7 @@ input{
     .contacto-h2{
         background-color: #333333b6;
         border-radius: 5px;
-        margin-top: 150px;
+        margin-top: 5px;
     }
     footer{
         background-color: #4e4c4c;
@@ -415,7 +415,7 @@ input{
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .galeria{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
     .item1{
         grid-column: 1/3;
@@ -455,7 +455,7 @@ input{
         height: 550px;
     }
     form{
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
 }
 
@@ -469,9 +469,9 @@ input{
         height: 600px;
     }
     form{
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     .contacto-h2{
-        margin-top: 20px ;
+        margin-top: 0px ;
     }
 }
