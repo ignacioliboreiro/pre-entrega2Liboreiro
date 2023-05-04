@@ -21,35 +21,37 @@
         <!-- Links -->
         <ul class="navegacion">
         <li class="nav-item">
-            <a class="nav-link" href="../index.html" target="_blank">Inicio</a>
+            <a class="nav-link nav" href="../index.html" target="_blank">Inicio</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link nav" href="#">Contacto</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Comprar</a>
+            <a class="nav-link nav" href="#">Comprar</a>
         </li>
         </ul>
     </nav>
     <!-- aca los forms -->
     <main class="main-contacto">
-    <div class="formulario">
+        <h2 class="contacto-h2">Contactanos</h2>
+    <form class="formulario">
         <div class="form-group col-12">
             <label for="usr">Nombre:</label>
-            <input type="text" class="form-control form " id="usr">
+            <input type="text" class="form-control form " id="usr" required>
         </div>
         <div class="form-group col-12">
             <label for="pwd">Email:</label>
-            <input type="email" class="form-control form" id="pwd">
+            <input type="email" class="form-control form" id="pwd" required>
         </div>
         <div class="form-group col-12">
             <label for="comment">Dejanos tu consulta:</label>
-            <textarea class="form-control form" rows="5" id="comment"></textarea>
+            <textarea class="form-control form" rows="5" id="comment" required></textarea>
         </div>
-        <div class="enviar col-12">
-            <input type="submit" class="enviar-input">
+        <div class="button-borders">
+            <button class="primary-button" type="submit"> Enviar
+            </button>
         </div>
-    </div>
+    </form>
 </main>
     <footer>
         <p>Todos los derechos son reservados por copyright</p>
