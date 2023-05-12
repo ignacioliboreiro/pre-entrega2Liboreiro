@@ -10,21 +10,34 @@
     <title>SneakySneakers</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-light  header">
         <!-- Brand/logo -->
         <a class="navbar-brand" href="#">
-        <img src="./img/logo.jpg" alt="logo" style="width:150px;">
-        </a>
-        
-        <!-- Links -->
-        <ul class="navegacion">
-        <li class="nav-item">
-            <a class="nav-link nav" href="./index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link nav" href="./pag/contacto.html" target="_blank">Contacto</a>
-        </li>
+            <img src="../img/logo.jpg" alt="logo" style="width:150px;">
+            </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="./pag/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Productos
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Zapatillas</a>
+                <a class="dropdown-item" href="#">Remeras</a>
+                <a class="dropdown-item" href="#">Pantalones</a>
+            </div>
+            </li>
         </ul>
+        </div>
     </nav>
     <main>
         <div class="call">
